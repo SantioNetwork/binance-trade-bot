@@ -14,7 +14,7 @@ spec:
       value: "API_SECRET_KEY"
     - key: CURRENT_COIN_SYMBOL
       scope: BUILD_TIME
-      value: "XMR"
+      value: "XLM"
     - key: BRIDGE_SYMBOL
       scope: BUILD_TIME
       value: "USDT"
@@ -38,5 +38,5 @@ spec:
       value: "0"
     - key: SUPPORTED_COIN_LIST
       scope: BUILD_TIME
-      value: "ADA ATOM BAT BTT DASH DOGE EOS ETC ICX IOTA NEO OMG ONT QTUM TRX VET XLM XMR"
+      value: "XLM TRX ICX EOS IOTA ONT QTUM ETC ADA DASH NEO ATOM DOGE VET BAT BTT BNB OM AAVE SUI"
     name: binance-trade-bot

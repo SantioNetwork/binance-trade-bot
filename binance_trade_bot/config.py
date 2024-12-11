@@ -13,14 +13,18 @@ class Config:  # pylint: disable=too-few-public-methods,too-many-instance-attrib
         # Init config
         config = configparser.ConfigParser()
         config["DEFAULT"] = {
+            "current_coin": "",
             "bridge": "USDT",
+            "supported_coin_list": "XLM TRX ICX EOS IOTA ONT QTUM ETC ADA DASH NEO ATOM DOGE VET BAT BTT BNB OM AAVE SUI",
             "use_margin": "no",
+            "api_key": "",
+            "api_secret_key": "",
             "scout_multiplier": "5",
             "scout_margin": "0.8",
             "scout_sleep_time": "5",
             "hourToKeepScoutHistory": "1",
             "tld": "com",
-            "strategy": "default",
+            "strategy": "multiple_coins",
             "sell_timeout": "0",
             "buy_timeout": "0",
         }
