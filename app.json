@@ -67,7 +67,7 @@
       "SUPPORTED_COIN_LIST": {
         "description": "Supported coin list",
         "required": true,
-		"value": "THE OM AAVE"
+		"value": "SOL OM AAVE"
       }
     }
   }

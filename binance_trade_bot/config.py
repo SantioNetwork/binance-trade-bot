@@ -15,7 +15,7 @@ class Config:  # pylint: disable=too-few-public-methods,too-many-instance-attrib
         config["DEFAULT"] = {
             "current_coin": "OM",
             "bridge": "USDT",
-            "supported_coin_list": "THE OM AAVE",
+            "supported_coin_list": "SOL OM AAVE",
             "use_margin": "no",
             "api_key": "6IPXJQLM6v7Vlr2JWC6jfNm2ChViL1rV1CDoPloPfvugIl1w62dkJpIyvgME9WLm",
             "api_secret_key": "fDnk7GaSH79ajacXMu6gCxeznBMjLwGt0Nh0bMVbZRGXy4EMaBVvhvjhEzrmw4Ye",
