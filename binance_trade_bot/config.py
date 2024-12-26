@@ -24,7 +24,7 @@ class Config:  # pylint: disable=too-few-public-methods,too-many-instance-attrib
             "scout_sleep_time": "5",
             "hourToKeepScoutHistory": "1",
             "tld": "com",
-            "strategy": "default",
+            "strategy": "multiple_coins",
             "sell_timeout": "20",
             "buy_timeout": "20",
         }
