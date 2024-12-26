@@ -13,20 +13,20 @@ class Config:  # pylint: disable=too-few-public-methods,too-many-instance-attrib
         # Init config
         config = configparser.ConfigParser()
         config["DEFAULT"] = {
-            "current_coin": "",
+            "current_coin": "OM",
             "bridge": "USDT",
-            "supported_coin_list": "XLM TRX ICX EOS IOTA ONT QTUM ETC ADA DASH NEO ATOM DOGE VET BAT BTT BNB OM AAVE SUI",
+            "supported_coin_list": "THE OM AAVE",
             "use_margin": "no",
-            "api_key": "",
-            "api_secret_key": "",
+            "api_key": "6IPXJQLM6v7Vlr2JWC6jfNm2ChViL1rV1CDoPloPfvugIl1w62dkJpIyvgME9WLm",
+            "api_secret_key": "fDnk7GaSH79ajacXMu6gCxeznBMjLwGt0Nh0bMVbZRGXy4EMaBVvhvjhEzrmw4Ye",
             "scout_multiplier": "5",
             "scout_margin": "0.8",
             "scout_sleep_time": "5",
             "hourToKeepScoutHistory": "1",
             "tld": "com",
-            "strategy": "multiple_coins",
-            "sell_timeout": "0",
-            "buy_timeout": "0",
+            "strategy": "default",
+            "sell_timeout": "20",
+            "buy_timeout": "20",
         }
 
         if not os.path.exists(CFG_FL_NAME):
