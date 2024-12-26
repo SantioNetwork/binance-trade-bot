@@ -27,7 +27,7 @@
       "BRIDGE_SYMBOL": {
         "description": "Your bridge currency of choice. Notice that different bridges will allow different sets of supported coins. For example, there may be a Binance particular-coin/USDT pair but no particular-coin/BUSD pair",
         "required": true,
-		"value": "USDT"
+		"value": "USDC"
       },
       "TLD": {
         "description": "'com' or 'us', depending on your region. Default is 'com'",

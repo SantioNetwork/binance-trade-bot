@@ -14,7 +14,7 @@ class Config:  # pylint: disable=too-few-public-methods,too-many-instance-attrib
         config = configparser.ConfigParser()
         config["DEFAULT"] = {
             "current_coin": "OM",
-            "bridge": "USDT",
+            "bridge": "USDC",
             "supported_coin_list": "SOL OM AAVE",
             "use_margin": "no",
             "api_key": "6IPXJQLM6v7Vlr2JWC6jfNm2ChViL1rV1CDoPloPfvugIl1w62dkJpIyvgME9WLm",
